@@ -10,5 +10,5 @@ for item in my_list :
 for key, value in my_dict.items() : 
     print(f"My favorite {key} is {value} ")
 
-# my_list2 = 
-# my_dict = my_dict
+#my_list2 = 
+#my_dict = my_dict
