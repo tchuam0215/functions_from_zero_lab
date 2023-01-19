@@ -4,7 +4,7 @@ from mylib.bot import scrape
 
 @click.command()
 @click.option('--name', default="Microsoft", help='Web page we want to scrape')
-def cli(name, length=1):
+def cli(name="Microsoft", length=1):
     return click.echo(click.style(f"{scrape(name, length)}", bg="blue", fg="white"))
 
 # print(scrape())
